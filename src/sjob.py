@@ -7,7 +7,7 @@ class SuperJobAPI(VacancyByAPI):
     """Класс для работы с API SuperJob"""
 
     _base_url = 'https://api.superjob.ru/2.0/vacancies'
-    _API_KEY: str = os.getenv('API_KEY_SJOB')
+    _API_KEY: str = 'v3.h.4533375.184c51aa4a42c004bafba504ea2e1dceb09a709f.4bf49b534e672d32590d76cb358435e785503ca1'
 
     def __init__(self, page=0, per_page=1) -> None:
         """
